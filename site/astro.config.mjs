@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import svelte from '@astrojs/svelte';
-import nodejs from '@astrojs/node';
+// import nodejs from '@astrojs/node';
 import sitemap from '@astrojs/sitemap';
 import virtual from '@rollup/plugin-virtual';
 import AstroPWA from '@vite-pwa/astro';
