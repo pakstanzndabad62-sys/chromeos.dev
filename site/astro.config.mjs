@@ -40,10 +40,10 @@ aliases.push({
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chromeos.dev',
-  output: 'hybrid',
-  adapter: nodejs({
-    mode: 'middleware',
-  }),
+  // output: 'hybrid',
+  // adapter: nodejs({
+  //   mode: 'middleware',
+  // }),
   integrations: [
     svelte(),
     sitemap(),
